@@ -7,7 +7,10 @@ namespace TEST
 	{
 		public static void Main()
 		{
-			Console.WriteLine("KA");
+			for(int i = 0; i < 10; i++)
+			{
+				Console.WriteLine("KA");
+			}
 		}
 	}
 }

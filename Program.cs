@@ -2,7 +2,7 @@ using System;
 
 namespace TEST
 {
-	public class Program()
+	public class Program
 	{
 		public static void Main()
 		{
@@ -10,6 +10,12 @@ namespace TEST
 			{
 				Console.WriteLine("KA");
 			}
+			SayName("Carlos");
+		}
+
+		public static string SayName(string name)
+		{
+			Console.WriteLine($"hello {name}");
 		}
 	}
 }
